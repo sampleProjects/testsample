@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url("../css/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../css/fonts/glyphicons-halflings-regular.woff") format("woff"), url("../css/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../css/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../css/fonts/Lato/Lato-Regular.eot');
+  src: url('../css/fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+url('../css/fonts/Lato/Lato-Regular.woff') format('woff'),
+url('../css/fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../css/fonts/Opensans/opensansregular.eot');
+    src: url('../css/fonts/Opensans/opensansregular.eot?#iefix') format('embedded-opentype'),
+url('../css/fonts/Opensans/opensansregular.woff') format('woff'),
+url('../css/fonts/Opensans/opensansregular.ttf') format('truetype'),
+url('../css/fonts/Opensans/opensansregular.svg#opensansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../css/fonts/Opensans/opensanssemibold.eot');
+    src: url('../css/fonts/Opensans/opensanssemibold.eot?#iefix') format('embedded-opentype'),
+url('../css/fonts/Opensans/opensanssemibold.woff') format('woff'),
+url('../css/fonts/Opensans/opensanssemibold.ttf') format('truetype'),
+url('../css/fonts/Opensans/opensanssemibold.svg#opensanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ @font-face {
+    font-family: 'OpenSansLight-Italic';
+    src: url('../css/fonts/Opensans/opensanslightitalic.eot');
+    src: url('../css/fonts/Opensans/opensanslightitalic.eot?#iefix') format('embedded-opentype'),
+             url('../css/fonts/Opensans/opensanslightitalic.woff') format('woff'),
+             url('../css/fonts/Opensans/opensanslightitalic.ttf') format('truetype'),
+             url('../css/fonts/Opensans/opensanslightitalic.svg#opensanslightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../css/fonts/Myriad/myriadproregular.eot');
+    src: url('../css/fonts/Myriad/myriadproregular.eot?#iefix') format('embedded-opentype'),
+             url('../css/fonts/Myriad/myriadproregular.woff') format('woff'),
+             url('../css/fonts/Myriad/myriadproregular.ttf') format('truetype'),
+             url('../css/fonts/Myriad/myriadproregular.svg#myriadproregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Semibold';
+    src: url('../css/fonts/Myriad/myriadprosemibold1.eot');
+    src: url('../css/fonts/Myriad/myriadprosemibold1.eot?#iefix') format('embedded-opentype'),
+             url('../css/fonts/Myriad/myriadprosemibold1.woff') format('woff'),
+             url('../css/fonts/Myriad/myriadprosemibold1.ttf') format('truetype'),
+             url('../css/fonts/Myriad/myriadprosemibold1.svg#myriadprosemibold1') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../css/fonts/Opensans/opensansbold.eot');
+    src: url('../css/fonts/Opensans/opensansbold.eot?#iefix') format('embedded-opentype'),
+             url('../css/fonts/Opensans/opensansbold.woff') format('woff'),
+             url('../css/fonts/Opensans/opensansbold.ttf') format('truetype'),
+             url('../css/fonts/Opensans/opensansbold.svg#opensansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

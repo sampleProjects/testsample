@@ -1,0 +1,9 @@
+<g:render template="../common/searchDialog/projectSearchDialog"></g:render>
+<g:render template="../common/searchDialog/customerSearchDialog"></g:render>
+<g:render template="../common/searchDialog/acctExecutiveSearchDialog"></g:render>
+<g:render template="../common/searchDialog/projectManagerSearchDialog"></g:render>
+<g:render template="../common/searchDialog/supervisorSearchDialog"></g:render>
+<g:render template="../common/searchDialog/employeeSearchDialog"></g:render>
+<g:render template="../common/searchDialog/laborActivityCodeSearchDialog"></g:render>
+<g:render template="../common/searchDialog/payDepartmentSearchDialog"></g:render>
+<g:render template="../common/searchDialog/laborActivityGroupSearchDialog"></g:render>

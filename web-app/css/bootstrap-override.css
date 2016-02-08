@@ -1,0 +1,59 @@
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th{
+vertical-align:middle;
+}
+.control-label{
+	text-align:left;
+	font-family: 'OpenSans-Semibold';
+	font-weight:normal;
+	font-size:13px;
+}
+.btn-success {
+    background-color:#19aa8d;
+    border-color: #19aa8d;
+    color: #fff;
+}
+.btn-success:hover {
+    background-color: #098b71;
+    border-color: #098b71;
+    color: #fff;
+}
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success.focus:active, .btn-success:active:focus, .btn-success:active:hover, .open > .dropdown-toggle.btn-success.focus, .open > .dropdown-toggle.btn-success:focus, .open > .dropdown-toggle.btn-success:hover, .btn-success.focus, .btn-success:focus{
+	background-color: #098b71;
+    border-color: #098b71;
+    color: #fff;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border: 1px solid #f0f0f0;
+    color: #646464;
+}
+/* .table > thead > tr > th {
+    background: #19aa8d none repeat scroll 0 0;
+    color: #fff;
+    font-weight: normal;
+} */
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+	
+}
+.table > tbody > tr > td {
+    font-family: "OpenSans";
+    font-size: 13px;
+
+}
+.table > thead > tr > th {
+	background-color:#19aa8d;
+	color:#fff;
+}
+.table > thead > tr > th > a{
+	color:#fff;
+}
+.table {
+    border: 1px solid #dddddd;
+}
+.glyphicon{
+	margin-right:5px;
+}

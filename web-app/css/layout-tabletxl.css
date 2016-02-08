@@ -1,0 +1,58 @@
+/*  992px > tablet styles < 1280px ======================================= */
+@media screen and (min-width:992px) and (max-width:1279px){
+
+/*** main page */
+#wrapper{
+	padding-left:235px;
+}
+
+#sidebar-wrapper{
+	width:250px;
+}
+#page-content-wrapper .top-navigation-rht .welcome-txt{
+    padding-right:30px;
+}
+#page-content-wrapper .top-navigation-rht .notification{
+    padding-right:20px;
+}
+#page-content-wrapper .top-navigation-rht{
+    padding: 0 15px;
+}
+#page-content-wrapper .top-navigation-rht .notification .bell .badge, #page-content-wrapper .top-navigation-rht .notification .message .badge{
+    top: -6px;
+}
+/* #page-content-wrapper .white-bg .form-group label{
+	width: 40%;
+} */
+/* #page-content-wrapper .white-bg.project-detail .form-group label{
+	 margin-right: 5px;
+    margin-top: 5px;
+    vertical-align: middle;
+    width: auto;
+}
+#page-content-wrapper .white-bg.project-detail .form-group label .required-indicator {
+    color: #f00;
+    padding-left:2px;
+}
+#page-content-wrapper .white-bg.project-detail .form-group{
+	 margin-bottom: 15px;
+}
+#page-content-wrapper .white-bg.project-detail .form{
+	margin-top:10px;
+} */
+.btn-space{ margin-top:20px; }
+#wrapper{
+	padding-left:0;
+}
+#wrapper.toggled #menu-toggle{
+	margin-left:0;
+	transition:all 0.5s ease 0s;
+}
+#wrapper #menu-toggle{
+	margin-left:243px;
+	transition:all 0.5s ease 0s;
+}
+.long-table {
+    width: 873px;
+}
+}

@@ -1,0 +1,86 @@
+/*  768px > tablet styles < 991px ======================================= */
+@media screen and (min-width:768px) and (max-width:991px) {
+
+/*********Login page css *********/
+
+.main-container{
+    /* width:970px; */
+}
+.login-form{
+	padding:35px 35px 0;
+	margin-top:-220px;
+}
+.login-form .signup-block{
+	margin-left:-20px;
+	margin-right: -20px;
+	padding-left:35px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.login-page .btn-primary,.login-page .btn-link { padding-top:8px; padding-bottom:8px; min-width:120px;}
+
+/*** main page */
+#wrapper{
+	padding-left:226px;
+}
+#wrapper.toggled{
+	padding-left:0;
+}
+#sidebar-wrapper{
+	width:250px;
+}
+#wrapper.toggled #sidebar-wrapper{
+	width:0;
+}
+#page-content-wrapper {
+    position: relative;
+}
+#page-content-wrapper .dropdown{
+    float:none;
+    display:inline-block;
+}
+#page-content-wrapper .top-navigation-rht{
+    padding:0;
+}
+#page-content-wrapper .dropdown{
+    padding-right:0;
+}
+#page-content-wrapper .top-navigation-rht .logout{
+    padding-left:8px;
+}
+.main-container{
+	/* width:970px; */
+	position: inherit;
+	/* margin: 0 auto; */
+}
+
+#page-content-wrapper .pagination{ margin-top:0; }
+.pop-up-action{ margin-top:30px; margin-bottom:20px; }	
+#page-content-wrapper .popup-pagination-pad{ margin-top:20px; }
+.modal-footer .btn.btn-success{ margin-top:-80px; }
+.btn-space{ margin-top:20px; }
+
+#wrapper{
+	padding-left:0;
+}
+#wrapper.toggled #menu-toggle{
+	margin-left:0;
+	transition:all 0.5s ease 0s;
+}
+#wrapper #menu-toggle{
+	margin-left:243px;
+	transition:all 0.5s ease 0s;
+}
+
+.list-table {
+	overflow-x: scroll;
+	position: initial;
+}
+
+.list-table .input-group{
+	position:inherit;
+}
+.long-table {
+    width: 663px;
+}
+}
